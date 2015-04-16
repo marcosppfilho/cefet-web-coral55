@@ -1,1 +1,63 @@
 @import "fonts/stylesheet.css";
+body{
+
+)
+
+
+
+}
+#recipiente{
+background-image: linear-gradient(to bottom, #f6f1b2,#4599b2);
+width:800px;
+margin:0 auto;
+top: 0px;
+right:0px;
+bottom: 0px;
+left: 0px;
+z-index: 1;
+position: relative;
+border-width: 1px;
+border-style: solid;
+border-color: #d3d3d3;
+}
+#cardapio{
+background-image: linear-gradient(to bottom, #fff, alpha 20%);
+width:640px;
+margin:0 auto;
+top: 0px;
+right:-154px;
+bottom: 0px;
+left: 0px;
+z-index: 1;
+border-width: 1px;
+border-style: solid;
+border-color: #aac0ae;
+}
+#h1 {
+font: #e90c0c;
+ 
+}
+#h2{
+font: Trebuchet MS, 24px, #333 e #d02711;
+}  
+ 
+#h3{
+ font: Verdana, 18px, #333, bold;
+}
+
+	
+#siri{
+position:absolute;
+top:17px;
+left:-10px;
+}
+#bolha{
+position:absolute;
+
+}
+#peixe{
+position:absolute;
+top:484px;
+left:-44px;
+
+}
