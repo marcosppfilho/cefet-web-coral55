@@ -7,6 +7,8 @@ body{
 
 }
 #recipiente{
+position:relative;
+display:table;
 background-image: linear-gradient(to bottom, #f6f1b2,#4599b2);
 width:800px;
 margin:0 auto;
@@ -15,49 +17,82 @@ right:0px;
 bottom: 0px;
 left: 0px;
 z-index: 1;
-position: relative;
 border-width: 1px;
 border-style: solid;
 border-color: #d3d3d3;
 }
 #cardapio{
 background-image: linear-gradient(to bottom, #fff, alpha 20%);
-width:640px;
-margin:0 auto;
-top: 0px;
-right:-154px;
-bottom: 0px;
-left: 0px;
+position:relative;
+width:646px;
+float:right;
+top:-80px;
 z-index: 1;
 border-width: 1px;
 border-style: solid;
 border-color: #aac0ae;
-}
-#h1 {
-font: #e90c0c;
- 
-}
-#h2{
-font: Trebuchet MS, 24px, #333 e #d02711;
-}  
- 
-#h3{
- font: Verdana, 18px, #333, bold;
+ line-height:1px;
+ font-family: Verdana;
+ color:#333;
 }
 
-	
+#h1{
+text-align:center;
+font-family:ravie;
+font-size:30px;
+color:#e90c0c;
+}
+
+#h2{
+text-align:center;
+font-family:Trebuchet MS;
+font-size:20px;
+color: #333;
+
+}  
+ 
+h3{
+ font-size:18px;
+
+}
+p{
+font-size:14px;
+}
+#vertical{
+position:absolute;
+top:200px;
+left:-60px;
+font-size:48px;
+color: #333;
+font-family:Verdana;
+-webkit-transform: rotate(-90deg);
+-moz-transform: rotate(-90deg);
+}
 #siri{
 position:absolute;
 top:17px;
 left:-10px;
+float:left;
 }
-#bolha{
+#bolhas{
 position:absolute;
+top:450px;
 
 }
 #peixe{
 position:absolute;
-top:484px;
+top:640px;
 left:-44px;
+}
+#cartoes{
+position:absolute;
+top:680px;
+left:646px;
 
+}
+
+#ticket{
+position:relative;
+top:-245px;
+left:-39px;
 }
